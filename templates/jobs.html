@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html>
-<title>job_list</title>
-  <style>
-    
-  </style>
+<div class="border-bottom row" style="padding-bottom:8px;">
 
-
+  <div class="col-9">
+<h6 style="color:rgb(120,120,120); font-weight:bold; font-size:20px;">{{job['role']}}</h6>
   
-</html>
+      <div> 
+        <b>Location : </b> {{job['location']}}
+        {% if 'salary' in job %}
+       <b>Salary : </b> {{job['salary']}}</div>
+        {% endif %}
+  </div>
+
+  <div class="col-3" style="padding-top:12px;">  
+  <button type="button" class="btn btn-outline-    
+  primary"> Apply </button> 
+  </div>
+  
+</div>
+
