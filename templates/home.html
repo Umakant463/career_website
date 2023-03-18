@@ -27,9 +27,16 @@
     <img class="img-fluid" id="banner" src="https://careerwebsite.umakant463.repl.co/static/banner.jpg">
     
 <br>
-    <h2 class = "text-center mt-4"> ABOUT US</h2>
-    <p class = "lead"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <h2 class = "text-center mt-6 mb-5"> ABOUT US</h2>
+    <div class = "row">
+    <p class = "lead col-8"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 
+<img   class="img-fluid col-4" id="col4" 
+  style = "height:320px; 
+  object-fit:cover;
+  border-radius:5%;" 
+ src="https://careerwebsite.umakant463.repl.co/static/col4.jpg">
+</div>
   <br>
     <h2 class = "text-center"> POSITOINS </h2>
         <div">
@@ -41,9 +48,10 @@
     </div>   
 <br>
     <div class = "text-center"> 
-     <button type="button" class="btn btn-primary btn-lg mt-4">CAREERS</button>
+     <a href="mailto:umakant.g.manore@gmail.com?subject=Doubts%20regarding%20job%20application.&body=Hi%2C" type="button" class="btn btn-primary btn-lg mt-4">Contact Us</a>
     </div>
-    <p>Copyright LLC uk</p>
     </div>
+
+    {% include 'footer.html' %}
   </body>
 </html>
